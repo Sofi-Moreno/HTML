@@ -1,0 +1,45 @@
+    ♥ ¿Qué es HTML?
+    
+HTML = Hyper Text MarKup Lenguaje 
+(Lenguaje de Marcas de Hipertexto o Lenguaje de Marcado)
+
+- ¿Qué es y para que sirve?:
+HTML es el lenguaje que se emplea para el desarrollo de las páginas de internet.
+Está compuesto por una serie de etiquetas que el navegador interpreta y da forma 
+en la pantalla mediante nuestro navegador. HTML dispone de etiquetas para imágenes,
+hipervínculos que nos permiten dirigirnos a otras páginas, salto de líneas, listas,
+tablas y muchos más.
+
+La estructura principal de un documento HTML es la siguiente:
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="pruebita3.css">
+    </head>
+    <body>
+        <h1>Hola Mundo!</h1>
+        <h2>Me llamo Sofi!</h2>
+    </body>
+    </html>
+
+- Historia del HTML:
+HTML nació públicamente en un documento llamado 'HTML TAGS' que quiere decir más
+o menos 'Etiquetas HTML' publicado por primera vez en Internet por Tim Berners-Lee 
+en 1991. En esta publicación se describen 22 etiquetas que mostraban un diseño 
+inicial y relativamente simple de HTML. Varios de estos elementos se conservan en 
+la actualidad otros se han dejado de usar y muchos otros se han ido añadiendo con 
+el paso de los años.
+
+- Recomendación:
+Es fundamental enfocarse en aprender los conceptos básicos de HTML y comprender 
+su funcionamiento general, en lugar de centrarse en una versión específica del 
+lenguaje. Una persona que cuenta con fundamentos y comprensión básica sobre el 
+lenguaje es capaz de adaptarse a las características particulares de una versión 
+sin problema. En cambio centrarse en los detalles de una versión sin conocer los
+fundamentos hará que no tengamos capacidad de comprender lo que hacemos ni para 
+adaptarnos a los continuos cambios que tienen lugar en el ámbito de desarrollo web.
+
+    - Besitos, Sofi ♥.

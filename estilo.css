@@ -1,0 +1,13 @@
+body{ 
+    h1{
+        color: darksalmon;
+        font: 3em georgia;
+        text-align: center;
+    }
+    p{
+        color: rgb(165, 69, 34);
+        font: 1em georgia;
+        text-align: left;
+    }
+
+}

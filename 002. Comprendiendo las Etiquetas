@@ -1,0 +1,34 @@
+    ♥ Comprendiendo las Etiquetas
+
+El código HTML consiste de un archivo de texto delimitado por etiquetas,
+dentro de estas etiquetas se colocan diversa información como por ejemplo
+qué texto se debería visualizar, en qué lugar deben aparecer los elementos,
+qué imágenes se van a utilizar, a que enlaces web vamos a referenciar, 
+entre muchas otras cosas más.
+
+Una etiqueta en HTML empieza por crearse de la siguiente manera: <etiqueta>.
+Toda etiqueta en HTML tiene que estar por obligación encerrada entre paréntesis
+angulares que marcan la etiqueta, estás en unos casos son denominadas simples 
+o vacías (no poseen etiqueta de cierre) y en otros casos vienen con sus 
+respectivas etiquetas de cierre.
+
+Éstas etiquetas de cierre se reconocen a primera vista por el flash en su 
+interior el cual va ubicado después del primer paréntesis angular de dicha 
+etiqueta, como lo pueden ver: </etiqueta>.
+
+Ambos tipos de etiquetas poseen atributos, los mismos van dentro de los 
+parentesis angulares de la etiqueta simple o dentro de la etiqueta de 
+apertura, de la siguiente manera: <etiqueta atributo = "valor">. Estos 
+atributos indican propiedades o comportamiento que la etiqueta debe tener. 
+Las etiquetas pueden poseer multiples atributos y su valor siempre debe 
+estar dentro de comillas dobles.
+
+- Ejemplo de la estructura de una etiqueta con apertura y cierre:
+    <etiqueta atributo="valor">
+        Informacion a mostrar
+    </etiqueta>
+
+-Ejemplo de una etiqueta simple o vacia:
+    <etiqueta atributo="valor">
+
+    - Besitos, Sofi♥.

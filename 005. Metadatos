@@ -1,0 +1,52 @@
+    ♥ Medatados
+Los metadatos HTML son elementos que proporcionan información sobre una página web,
+pero no se muestran directamente en el contenido visible. Se encuentran dentro de 
+la sección <head> de un documento HTML y son utilizados por los navegadores, motores 
+de búsqueda y otros servicios web para entender y procesar la información de la página.
+
+- Importancia de los metadatos:
+
+1. Motores de búsqueda: Los metadatos ayudan a los motores de búsqueda a indexar y 
+clasificar las páginas web. Esto es crucial para el SEO (Search Engine Optimization),
+ya que metadatos precisos y relevantes pueden mejorar el posicionamiento de una página
+en los resultados de búsqueda.
+
+2. Navegadores: Los navegadores utilizan metadatos para determinar cómo mostrar y procesar
+el contenido de una página web. Por ejemplo, el metadato <title> define el título que se 
+muestra en la pestaña del navegador.
+
+3. Redes sociales: Las redes sociales utilizan metadatos para mostrar información sobre una
+página web cuando se comparte en sus plataformas. Esto incluye el título, la descripción y
+la imagen de vista previa.
+
+4. Accesibilidad: Algunos metadatos son importantes para la accesibilidad, ya que proporcionan
+información adicional sobre el contenido para usuarios con discapacidades.
+
+- Tipos de Metadatos:
+
+1. <title>: Define el título de la página que se muestra en la pestaña del navegador y en los
+   resultados de búsqueda.
+   Ejemplo: <title>Título de la página</title>
+
+2. <meta>: Se utiliza para definir varios tipos de metadatos, como la descripción de la página,
+   palabras clave, autor, codificación de caracteres y más.
+   Ejemplo: <meta name="description" content="Descripción de la página">
+            <meta name="keywords" content="palabras clave, separadas, por comas">
+            <meta name="author" content="Nombre del autor">
+            <meta charset="UTF-8">
+
+3. <link>: Se utiliza para enlazar hojas de estilo externas, iconos y otros recursos
+   relacionados con la página.
+   Ejemplo: <link rel="stylesheet" href="estilos.css">
+            <link rel="icon" href="favicon.ico">
+
+4. <style>: Se utiliza para definir los estilos CSS dentro del propio documento HTML,
+   en lugar de enlazar a una hoja de estilo externa. Aunque no es muy recomendable
+   hacerlo ya que sobrecarga el documento HTML.
+   Ejemplo: <style>
+                body{
+                    se coloca todo el estilo de cada componente
+                }
+            </style>
+    
+    -Besitos, Sofi♥.

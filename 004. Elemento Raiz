@@ -1,0 +1,31 @@
+    ♥ Elemento Raiz
+El elemento raíz en HTML es la etiqueta <html>. Esta etiqueta es el contenedor 
+principal de todo el contenido de una página web y siempre debe ser el primer 
+elemento en un documento HTML, después de la declaración <!DOCTYPE html>.
+
+- Ejemplo:
+    <!DOCTYPE html>
+    <html lang="en">
+        todo lo demas
+    </html>
+
+- Atributos del elemento raiz:
+El elemento raíz <html> en HTML puede tener varios atributos, aunque no todos
+se utilizan con frecuencia. Los atributos más comunes y relevantes son:
+
+1. lang: Este atributo especifica el idioma principal del contenido del documento.
+Se utiliza un código de idioma ISO 639-1 de dos letras (por ejemplo, "es" para 
+español, "en" para inglés, "fr" para francés). Este atributo es importante para la 
+accesibilidad, ya que ayuda a los lectores de pantalla y otros dispositivos a 
+interpretar el idioma del contenido.
+Ejemplo: <html lang="es">
+
+2. dir: Este atributo especifica la dirección de lectura del texto. Los valores
+posibles son "ltr" (de izquierda a derecha, que es el valor predeterminado) y 
+"rtl" (de derecha a izquierda). Este atributo es útil para idiomas como el árabe
+o el hebreo que se escriben de derecha a izquierda.
+Ejemplo: <html lang="ar" dir="rtl">
+
+Nota: el atributo lang en es mas importante y se recomienda usarlo siempre.
+
+    - Besitos, Sofi♥.
