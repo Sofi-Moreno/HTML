@@ -1,0 +1,25 @@
+    ♥ Ediciones
+Las etiquetas <ins> y <del> en HTML se utilizan para indicar texto que ha sido
+editado en un documento.
+
+1. <ins> (insert):
+- Se utiliza para marcar texto que se ha añadido a un documento.
+- El texto aparecerá subrayado de forma predeterminada, aunque esto se
+  puede cambiar con CSS.
+- Se puede usar para mostrar cambios en un documento, como en un control
+  de versiones o al editar un texto.
+
+2. <del> (delete):
+- Se utiliza para marcar texto que se ha eliminado de un documento.
+- El texto aparecerá tachado de forma predeterminada, aunque esto se puede
+  cambiar con CSS.
+- Se puede usar para mostrar cambios en un documento, como en un control de
+  versiones o al editar un texto.
+
+EJEMPLO:
+<p>Este es un texto de ejemplo. <del>Este texto ha sido eliminado.</del>
+<ins>Este texto ha sido añadido.</ins></p>
+En este ejemplo, "Este texto ha sido eliminado" aparecerá tachado y
+"Este texto ha sido añadido" aparecerá subrayado.
+
+  - Besitos, Sofi♥.

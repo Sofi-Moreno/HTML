@@ -1,0 +1,44 @@
+    ♥ Secciones
+Las secciones en HTML, son elementos fundamentales para estructurar y organizar el
+contenido de una página web. Su función principal es dividir el contenido en bloques
+temáticos, facilitando la comprensión tanto para los usuarios como para los motores
+de búsqueda.
+
+    Tipos de Secciones dentro de una pagina web:
+1. <body>: Esta etiqueta define el cuerpo del documento HTML. Contiene todo el contenido
+visible de la página, como texto, imágenes, enlaces y otros elementos.
+
+2. <section>: Esta etiqueta representa una sección temática dentro de un documento HTML.
+Se utiliza para agrupar contenido relacionado y mejorar la estructura semántica de la página.
+
+3. <nav>: Esta etiqueta se utiliza para definir una sección de navegación en un documento HTML.
+Contiene enlaces a otras páginas del sitio web u otras secciones de la página actual. Se coloca
+luego de la etiqueta de apertura del body.
+
+4. <article>: Esta etiqueta representa un contenido independiente y autónomo dentro de un
+documento HTML, como un artículo de noticias, una publicación de blog o un comentario.
+Suelen colocarce dentromde las etiquetas seccion.
+
+5. <aside>: Esta etiqueta se utiliza para definir contenido relacionado pero independiente
+del contenido principal de un documento HTML, como barras laterales, anuncios o información
+adicional. Suele ir dentro de etiquetas seccion.
+
+6. <h1> a <h6>: Estas etiquetas se utilizan para definir encabezados de diferentes niveles
+en un documento HTML. <h1> es el encabezado de nivel superior y <h6> es el encabezado de
+nivel inferior.
+
+7. <header>: Esta etiqueta se utiliza para definir la cabecera de un documento HTML o de una
+sección. Contiene información introductoria, como el título, el logotipo y el menú de navegación.
+Se coloca luego del nav.
+
+8. <footer>: Esta etiqueta se utiliza para definir el pie de página de un documento HTML o de
+una sección. Contiene información adicional, como el autor, la fecha de publicación y los
+enlaces a otras páginas. Se coloca al final antes de la etiquta de cierre del body.
+
+9. <main>: Esta etiqueta se utiliza para definir el contenido principal de un documento HTML.
+Solo puede haber un elemento <main> por página. Contiene todo el contenido de la pagina que 
+no esta ni en el header, ni en el footer.
+
+Nota: Hay un ejemplo grafico y uno en html para comprender mejor como funcionan.
+
+    - Besitos, Sofi♥.

@@ -1,0 +1,42 @@
+    ♥ Scriping
+Los scriping son las etiquetas <script> y <noscript>, estas etiquetas estan
+relacionadas con la inclusión y manejo de scripts, principalmente JavaScript,
+en páginas web.
+
+1. Etiqueta <script>: se utiliza para insertar o referenciar código JavaScript
+dentro de un documento HTML. Este código se ejecuta en el navegador del usuario
+y permite agregar interactividad, dinamismo y funcionalidad a las páginas web.
+Se recomienda colocarlo en el body antes de la etiqueta de cierre para mejorar
+la percepcion de velocidad de carga para los usuarios.
+    Atributos importantes de <script>:
+- src: Especifica la URL de un archivo JavaScript externo que se va a incluir.
+- type: Indica el tipo de script, generalmente "text/javascript" (aunque en HTML5
+        ya no es necesario especificarlo).
+- async: Indica que el script se cargará de forma asíncrona, sin bloquear el
+         análisis del HTML.
+- defer: Indica que el script se ejecutará después de que se haya analizado el HTML,
+         pero antes del evento DOMContentLoaded.
+
+2. Etiqueta <noscript>: se utiliza para proporcionar contenido alternativo que se
+mostrará a los usuarios en caso de que tengan JavaScript desactivado en su navegador
+o si el navegador no admite scripts. El contenido dentro de la etiqueta <noscript>
+puede ser cualquier elemento HTML válido, como texto, imágenes o enlaces.
+Se recomienda colocarlo dentro del body en el lugar donde se desea que se desea que
+se muestre el contenido en caso de que JavaScript este desactivado.
+
+EJEMPLO:
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Ejemplo de Scriping</title>
+        </head>
+        <body>
+            <noscript>
+                <p>Tu navegador no tiene JavaScript habilitado.
+                   Para una mejor experiencia, actívalo.</p>
+            </noscript>
+            <script src="mi_script.js"></script>
+        </body>
+    </html>
+
+    - Besitos, Sofi♥.

@@ -1,0 +1,64 @@
+    ♥ Agrupación de Contenido
+Estas son etiquetas que pueden ayudarnos a organizar el contenido de nuestra pagina web.
+
+1. <p> (paragraph): Define un párrafo de texto. Los navegadores suelen añadir unespacio en
+blanco antes y después de cada párrafo.
+Ejemplo: <p>Este es un párrafo de texto.</p>
+
+2. <hr> (horizontal rule): Representa un cambio temático entre párrafos o secciones. Se
+muestra como una línea horizontal que separa el contenido.
+Ejemplo: <hr> (solo se coloca dode se quiere y ya)
+
+3. <pre> (preformatted text): Define texto preformateado. El texto se muestra tal cual se
+escribe, incluyendo espacios y saltos de línea. Se usa para mostrar código o texto que
+requiere un formato especial.
+Ejemplo: 
+<pre>
+  Este es un texto preformateado.
+  Se respeta el formato.
+</pre>
+
+4. <blockquote> (block quotation): Se utiliza para indicar una cita larga. Los navegadores
+suelen aplicar sangría al texto citado.
+Ejemplo:
+<blockquote>
+  Este es un texto citado de otra fuente.
+</blockquote>
+
+5. <ol> (ordered list): Define una lista ordenada. Los elementos de la lista se muestran con
+números o letras.
+Ejemplo:
+<ol>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+</ol>
+
+6. <ul> (unordered list): Define una lista desordenada. Los elementos de la lista se muestran
+con viñetas.
+Ejemplo:
+<ul>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+</ul>
+
+7. <li> (list item): Define un elemento de una lista, ya sea ordenada (<ol>) o desordenada (<ul>).
+Ejemplo: <li>Elemento 1</li>
+
+8. <figure> (figure): Representa contenido independiente, como una imagen, un diagrama o un vídeo.
+Se utiliza para asociar una imagen con una leyenda.
+
+9. <figcaption> (figure caption): Define la leyenda de una figura (<figure>).
+Ejemplo de los dos anteriores:
+<figure>
+  <img src="imagen.jpg" alt="Descripción de la imagen">
+  <figcaption>Esta es la leyenda de la imagen.</figcaption>
+</figure>
+
+10. <div> (division): Define una división o sección genérica en un documento HTML. Se utiliza
+para agrupar elementos y aplicar estilos CSS.
+Ejemplo:
+<div>
+  <h2>Título de la sección</h2>
+  <p>Contenido de la sección.</p>
+</div>
+    - Besitos, Sofi♥.
