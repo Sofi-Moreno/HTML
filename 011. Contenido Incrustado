@@ -1,0 +1,123 @@
+    ♥ Contenido Incrustado
+
+1. <img> (Imagen): Inserta una imagen en la página web.
+    Atributos principales:
+    - src: Especifica la URL de la imagen.
+    - alt: Proporciona un texto alternativo para la imagen (importante para accesibilidad).
+    - width y height: Definen el ancho y alto de la imagen.
+    Ejemplo:
+    <img src="imagen.jpg" alt="Descripción de la imagen" width="500" height="300">
+
+2. <iframe> (Marco en línea): Inserta otro documento HTML dentro del documento actual.
+    Atributos principales:
+    - src: Especifica la URL del documento a insertar.
+    - width y height: Definen el ancho y alto del marco.
+    - allowfullscreen: Permite que el contenido del iframe se muestre en pantalla completa.
+    Ejemplo:
+    <iframe src="otro_documento.html" width="600" height="400"></iframe>
+
+3. <embed> (Incrustar): Incrusta contenido externo, como archivos multimedia o aplicaciones, 
+en la página web.
+    Atributos principales:
+    - src: Especifica la URL del contenido a incrustar.
+    - type: Define el tipo MIME del contenido.
+    - width y height: Definen el ancho y alto del contenido incrustado.
+    Ejemplo:
+    <embed src="archivo.pdf" type="application/pdf" width="800" height="600">
+
+4. <object> (Objeto): Similar a <embed>, incrusta contenido externo, pero ofrece más flexibilidad
+y control.
+    Atributos principales:
+    - data: Especifica la URL del contenido a incrustar.
+    - type: Define el tipo MIME del contenido. (no suele utilizarce)
+    - width y height: Definen el ancho y alto del contenido incrustado.
+    Ejemplo:
+    <object data="video.mp4" type="video/mp4" width="640" height="360">
+        <param name="autoplay" value="false">
+    </object>
+
+5. <param> (Parámetro): Define parámetros para un objeto incrustado con la etiqueta <object>.
+    Atributos principales:
+    - name: Especifica el nombre del parámetro.
+    - value: Define el valor del parámetro.
+    Ejemplo:
+    <object data="mi_applet.jar" type="application/x-java-applet" width="300" height="200">
+        <param name="param1" value="valor1">
+        <param name="param2" value="valor2">
+    </object>
+
+6. <audio> (Audio): Inserta contenido de audio en la página web.
+    Atributos principales:
+    - src: Especifica la URL del archivo de audio.
+    - controls: Muestra controles de reproducción de audio.
+    - autoplay: Inicia la reproducción automática del audio.
+    - loop: Repite la reproducción del audio en bucle.
+    Ejemplo:
+    <audio src="audio.mp3" controls>
+        Tu navegador no soporta la etiqueta de audio.
+    </audio>
+
+7. <video> (Vídeo): Inserta contenido de vídeo en la página web.
+    Atributos principales:
+    - src: Especifica la URL del archivo de vídeo.
+    - controls: Muestra controles de reproducción de vídeo.
+    - autoplay: Inicia la reproducción automática del vídeo.
+    - loop: Repite la reproducción del vídeo en bucle.
+    - width y height: Definen el ancho y alto del reproductor de vídeo.
+    - poster: Especifica una imagen para mostrar mientras se carga el vídeo.
+    Ejemplo:
+    <video src="video.mp4" controls width="640" height="360" poster="imagen_portada.jpg">
+        Tu navegador no soporta la etiqueta de vídeo.
+    </video>
+
+8. <source> (Fuente): Especifica múltiples fuentes de medios para las etiquetas <audio> y
+<video>, permitiendo la compatibilidad con diferentes formatos.
+    Atributos principales:
+    - src: Especifica la URL del archivo de medios.
+    - type: Define el tipo MIME del archivo de medios.
+    Ejemplo:
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.webm" type="video/webm">
+        Tu navegador no soporta la etiqueta de vídeo.
+    </video>
+
+9. <track> (Pista): Especifica pistas de texto para las etiquetas <audio> y <video>, como
+subtítulos o leyendas.
+    Atributos principales:
+    - src: Especifica la URL del archivo de pista de texto.
+    - kind: Define el tipo de pista de texto (subtítulos, leyendas, descripciones, etc.).
+    - srclang: Especifica el idioma de la pista de texto.
+    - label: Proporciona una etiqueta legible para la pista de texto.
+    Ejemplo:
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+        <track src="subtitulos.vtt" kind="subtitles" srclang="es" label="Español">
+    </video>
+
+10. <canvas> (Lienzo): Crea un área de dibujo para gráficos dinámicos y animaciones mediante JavaScript.
+    Atributos principales:
+    - width y height: Definen el ancho y alto del lienzo.
+    Ejemplo:
+    <canvas id="miCanvas" width="500" height="300"></canvas>
+    <script>
+    const canvas = document.getElementById('miCanvas');
+    const ctx = canvas.getContext('2d');
+    ctx.fillStyle = 'red';
+    ctx.fillRect(10, 10, 100, 50);
+    </script>
+    Nota: esta es una API muy poderosa que se debede investigar a profundidad.
+
+11. <svg> (Gráficos Vectoriales Escalables): Inserta gráficos vectoriales en la página web,
+que pueden escalarse sin perder calidad.
+    Atributos principales:
+    - width y height: Definen el ancho y alto del gráfico SVG.
+    - viewBox: Define la región del gráfico SVG que se muestra.
+    Ejemplo:
+    <svg width="200" height="100">
+        <rect width="100%" height="100%" fill="blue" />
+        <circle cx="100" cy="50" r="40" fill="yellow" />
+    </svg>
+    Nota: dentro de esta etiqueta se usan multiples etiquetas para mostrar cosas en el tablero.
+
+    - Besitos, Sofi♥.
